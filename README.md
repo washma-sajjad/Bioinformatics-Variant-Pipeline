@@ -4,7 +4,7 @@ A bioinformatics pipeline for variant calling and benchmarking using DeepVariant
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project aligns short-read sequencing data from the HG002 sample to the GRCh38 reference genome, calls variants using two state-of-the-art tools (DeepVariant and Clair3), and benchmarks the results against the GIAB NISTv4.2.1 truth set using hap.py.
 
@@ -18,7 +18,7 @@ This project aligns short-read sequencing data from the HG002 sample to the GRCh
 
 ---
 
-## ⚙️ Pipeline Steps
+## Pipeline Steps
 
 ### Step 1 — Alignment
 
@@ -121,7 +121,7 @@ singularity exec --bind $PWD:/data --env HGREF=/data/ref/GRCh38.fa hap.py_v0.3.1
 
 ---
 
-## 📊 Benchmark Results
+## Benchmark Results
 
 Evaluated against GIAB HG002 NISTv4.2.1 truth set on chr1 1–10 Mb region.
 
@@ -141,7 +141,7 @@ Evaluated against GIAB HG002 NISTv4.2.1 truth set on chr1 1–10 Mb region.
 
 ---
 
-## 🛠️ Tools & Versions
+## Tools & Versions
 
 | Tool | Version |
 |------|---------|
@@ -154,7 +154,7 @@ Evaluated against GIAB HG002 NISTv4.2.1 truth set on chr1 1–10 Mb region.
 
 ---
 
-## 📚 References
+## References
 
 - [GIAB Truth Sets](https://www.nist.gov/programs-projects/genome-bottle)
 - [DeepVariant](https://github.com/google/deepvariant)
@@ -164,7 +164,7 @@ Evaluated against GIAB HG002 NISTv4.2.1 truth set on chr1 1–10 Mb region.
 
 ---
 
-## ✍️ Submitted By
+## Submitted By
 
 - Washma Sajjad
 - Nawal Babar
