@@ -1,0 +1,15 @@
+Variant Caller Benchmark Comparison - HG002 chr1 1Mb region vs GIAB NISTv4.2.1
+
+Type  | Metric            | DeepVariant | Clair3
+------|-------------------|-------------|-------
+SNP   | Recall            | 0.0381      | 0.0000
+SNP   | Precision         | 0.0488      | 0.0000
+SNP   | F1 Score          | 0.0428      | 0.0000
+INDEL | Recall            | 0.0264      | 0.0000
+INDEL | Precision         | 0.0980      | 0.0000
+INDEL | F1 Score          | 0.0416      | 0.0000
+
+Notes:
+- Clair3 produced only RefCalls due to insufficient coverage (~2x)
+- DeepVariant low scores reflect limited 1Mb evaluation region
+- Minimum recommended coverage for variant calling: 20-30x
